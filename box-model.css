@@ -1,0 +1,34 @@
+.square{
+	display: inline-block;
+	border: 30px solid;
+	border-color: yellow blue green red;
+	padding: 50px;
+}
+
+.triangle{
+	display: inline-block;
+	border: 50px solid;
+	border-color: white white black;
+}
+
+.trapezoid{
+	display: inline-block;
+	border: 50px solid;
+	padding: 10px;
+	border-color: white white black;
+}
+
+.triangle-with-border{
+	position: relative;
+	display: inline-block;
+	border: 50px solid;
+	border-color: transparent transparent black;
+}
+
+.triangle-cover{
+	border: 40px solid;
+	border-color: transparent transparent white;
+	position: absolute;
+	right: -40px;
+	top: -30px;
+}
