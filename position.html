@@ -1,0 +1,104 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Web dev and HTML learning</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+
+<body>
+    <style contentEditable>
+    .content {
+    width: 100%;
+    }
+
+    #img1,#img2,#img3,#img4,#img5,#img6 {
+        border: 3px solid #000000;
+    }
+
+    p {
+        border: 3px solid #8e8e8e;
+    }
+
+    #img3 {
+        position: relative;
+        left: 15px;
+        top: 30px;
+        border: 3px solid #6AC5AC;
+    }
+
+    #session3{
+        position: relative;
+    }
+
+    #img5{
+        position: absolute;
+        left: 15px;
+        top: 30px;
+        border: 3px solid #6AC5AC;
+    }
+    .static{
+        border: 3px solid #EF7360;
+        margin: 150px 0;
+    }
+    .relative{
+        border: 3px solid #EF7360;
+        margin: 150px 0;
+    }
+    .absolute{
+        border: 3px solid #EF7360;
+        margin-bottom: 150px 0;
+    }
+    .fixed{
+        border: 3px solid #000000;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+    }
+    .fixed img{
+        display: block;
+    }
+
+    .tag{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    </style>
+
+<div class="header">
+    <h1 align="center">Learning Position</h1>
+</div>
+
+<div class="content">
+    <div class="static">
+        <div class="tag">position: static</div>
+        <div id="session">
+            <img id="img1" src="badge_2-1.jpg">
+            <img id="img2" src="badge_1-1.jpg">
+        </div>
+    </div>
+
+    <div class="relative">
+        <div class="tag">postion: relative</div>
+        <div id="session2">
+            <img id="img3" src="badge_2-1.jpg">
+            <img id="img4" src="badge_1-1.jpg">
+        </div>
+    </div>
+
+    <div class="absolute">
+        <div class="tag">postion: absolute</div>
+        <div id="session3">
+            <img id="img5" src="badge_2-1.jpg">
+            <img id="img6" src="badge_1-1.jpg">
+        </div>
+    </div>
+
+    <div class="fixed">
+        <div class="tag">position: fixed</div>
+        <img id="img_fix" src="badge_2-1.jpg">
+    </div>
+
+</body>
+</html>
